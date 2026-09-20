@@ -18,9 +18,9 @@ I started with Anomal-E, moved to SL-GAD to understand graph anomaly detection m
 
 | Project | What it covers |
 |---|---|
-| [Anomal-E-Implementation](https://github.com/Ilya-Jahed/Anomal-E-Implementation) | Modular analysis of Anomal-E (edge-centric GNN with a DGI objective): separating the data pipeline, graph construction, encoder, and detectors; preprocessing and target-encoding concerns; faster graph construction on large NetFlow datasets. |
-| [sl-gad-reimplementation](https://github.com/Ilya-Jahed/sl-gad-reimplementation) | Reimplementation of SL-GAD (generative + contrastive graph anomaly detection): random-walk subgraph sampling, multi-round scoring, and how node-centric anomaly detection differs from flow-level NIDS. |
-| [negsc-nids](https://github.com/Ilya-Jahed/negsc-nids) | Modular reimplementation and audit of NEGSC (NEGAT encoder with Wasserstein and Gromov-Wasserstein losses), including the paper-vs-reference-code analysis and known discrepancies. |
+| [Anomal-E implementation](https://github.com/Ilya-Jahed/Anomal-E-Implementation) | Modular analysis of Anomal-E (edge-centric GNN with a DGI objective): separating the data pipeline, graph construction, encoder, and detectors; preprocessing and target-encoding concerns; faster graph construction on large NetFlow datasets. |
+| [SL-GAD reimplementation](https://github.com/Ilya-Jahed/sl-gad-reimplementation) | Reimplementation of SL-GAD (generative + contrastive graph anomaly detection): random-walk subgraph sampling, multi-round scoring, and how node-centric anomaly detection differs from flow-level NIDS. |
+| [NEGSC reimplementation and audit](https://github.com/Ilya-Jahed/negsc-fraud-detection) | Modular reimplementation and audit of NEGSC, a NIDS method (NEGAT encoder with Wasserstein and Gromov-Wasserstein losses), including the paper-vs-reference-code analysis and known discrepancies. |
 
 Supporting material: [CS224W study notes](https://github.com/Ilya-Jahed/cs224w-study-notes) (graph ML) and [kernel-to-provenance-notes](https://github.com/Ilya-Jahed/kernel-to-provenance-notes) (Linux OS primitives for provenance-based intrusion detection).
 
